@@ -18,7 +18,7 @@ function Cart() {
       clearInterval(timerOut);
     };
   }, []);
-  return <h1> I am cart. Time left is: {timeLeft / 1000}</h1>;
+  return <h1> I am cart. Time left: {timeLeft / 1000}</h1>;
 }
 
 function WishList() {
